@@ -23,6 +23,12 @@
             <groupId>com.edison.service.taskschedule</groupId>
             <artifactId>taskschedule-model</artifactId>
         </dependency>
+        <dependency>
+            <groupId>com.edison.schedule</groupId>
+            <artifactId>schedule-model</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
     </dependencies>
     <build>
         <plugins>
