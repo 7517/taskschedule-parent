@@ -1,0 +1,71 @@
+application:
+  product: edison #产品
+  module: taskschedule #模块
+  name: microservice #子模块名称
+  code: 30300 #子模块ID
+  displayName: 任务日程
+  uploadFilePath:
+
+server:
+  port: 30300
+  compression:
+    enabled: true
+    mime-types: application/json,application/xml,text/html,text/xml,text/plain,text/javascript,text/css,application/javascript
+    min-response-size: 256
+eureka:
+  client:
+    registry-fetch-interval-seconds: 3
+  instance:
+    lease-renewal-interval-in-seconds: 3
+    lease-expiration-duration-in-seconds: 5
+    prefer-ip-address: true
+spring:
+  application:
+    name: ${application.product}-${application.module}-${application.name}
+  profiles:
+    active: local #环境配置- local：本地 dev：开发环境 qa：测试环境 uat：用户测试 pd：生产环境
+  cloud:
+    config:
+      enable: false
+  datasource:
+    tomcat:
+      max-active: 100
+      initial-size: 100
+  jpa:
+    hibernate:
+      ddl-auto: validate
+      naming:
+        strategy: org.hibernate.cfg.ImprovedNamingStrategy
+    database: mysql
+    show-sql: true
+  properties:
+    hibernate:
+      dialect: org.hibernate.dialect.MySQL5Dialect
+      format_sql: true
+
+info:
+  version: "@project.version@"
+  artifactId: "@project.artifactId@"
+
+swagger:
+  enabled: false
+
+management:
+  security:
+    enabled: false
+  context-path: /actuator
+  
+security:
+  oauth2:
+    client:
+      access-token-uri: http://SAAS-AUTHENTICATION-MICROSERVICE/oauth/token
+      client-id: ${spring.application.name}
+      client-secret: ${spring.application.name}
+      client-authentication-scheme: header
+    resource:
+      token-info-uri: http://SAAS-AUTHENTICATION-MICROSERVICE/oauth/check_token
+      id: ${spring.application.name}
+      
+logging:
+  file: logs/${spring.application.name}.log
+

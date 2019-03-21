@@ -1,0 +1,49 @@
+eureka:
+  client:
+    enabled: true
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://192.168.200.35:3306/saas-platform?useSSL=false&zeroDateTimeBehavior=convertToNull&autoReconnect=true&characterEncoding=UTF-8&characterSetResults=UTF-8&allowMultiQueries=true
+    username: devcoder
+    password: Devcoder@gxtY__2019!@#
+    tomcat:
+      max-active: 5
+      initial-size: 5
+  jpa:
+    hibernate:
+      ddl-auto: update
+  redis:
+    host: 192.168.200.36
+    port: 6379
+    password: null
+    database: 1
+    timeout: 300
+    pool:
+      max-active: 8
+      max-idle: 8
+      min-idle: 0
+      max-wait: 1
+
+security:
+  basic:
+    enabled: true
+  oauth2:
+    client:
+      access-token-uri: http://SAAS-AUTHENTICATION-MICROSERVICE/oauth/token
+      client-id: custom
+      client-secret: custom
+      client-authentication-scheme: header
+    resource:
+      token-info-uri: http://SAAS-AUTHENTICATION-MICROSERVICE/oauth/check_token
+      id: ${spring.application.name}
+      
+management:
+  security:
+    enabled: true
+
+swagger:
+  base-package: com.edison.service.taskschedule.business
+  enabled: true
