@@ -3,10 +3,11 @@ package com.edison.service.taskschedule.client.task;
 import com.edison.saas.common.framework.web.controller.PageContent;
 import com.edison.saas.common.framework.web.controller.RestResponse;
 import com.edison.saas.common.framework.web.data.PageSearchRequest;
-import com.edison.schedule.business.schedule.dto.ScheduleAddDto;
-import com.edison.schedule.business.schedule.dto.ScheduleCondition;
-import com.edison.schedule.business.schedule.dto.ScheduleEditDto;
-import com.edison.schedule.business.schedule.vo.ScheduleVO;
+
+import com.edison.service.taskschedule.business.dto.ScheduleAddDto;
+import com.edison.service.taskschedule.business.dto.ScheduleCondition;
+import com.edison.service.taskschedule.business.dto.ScheduleEditDto;
+import com.edison.service.taskschedule.business.vo.ScheduleVO;
 import org.springframework.cloud.netflix.feign.FeignClient;
 import org.springframework.web.bind.annotation.*;
 

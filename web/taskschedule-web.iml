@@ -213,8 +213,8 @@
     <orderEntry type="library" name="Maven: org.springframework:spring-expression:4.3.20.RELEASE" level="project" />
     <orderEntry type="module" module-name="taskschedule-model" />
     <orderEntry type="library" name="Maven: javax.transaction:javax.transaction-api:1.2" level="project" />
-    <orderEntry type="module" module-name="schedule-business" />
-    <orderEntry type="module" module-name="schedule-model" />
+    <orderEntry type="library" name="Maven: com.edison.services.orgcenter:orgcenter-client:1.0.0-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: com.edison.services.orgcenter:orgcenter-model:1.0.0-SNAPSHOT" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.projectlombok:lombok:1.18.2" level="project" />
   </component>
 </module>

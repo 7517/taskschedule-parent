@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="platform-discovery" />
+        <module name="taskschedule-business" />
+        <module name="taskschedule-client" />
+        <module name="taskschedule-model" />
+        <module name="taskschedule-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="platform-discovery" target="1.8" />
+      <module name="taskschedule-business" target="1.8" />
+      <module name="taskschedule-client" target="1.8" />
+      <module name="taskschedule-model" target="1.8" />
+      <module name="taskschedule-parent" target="1.8" />
+      <module name="taskschedule-web" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -59,5 +59,12 @@
             </modules>
         </profile>
     </profiles>
+    <repositories>
+        <repository>
+            <id>edison-nexus-releases</id>
+            <name>Local Nexus Repository</name>
+            <url>http://192.168.200.39:8081/repository/maven-public/</url>
+        </repository>
+    </repositories>
    
 </project>

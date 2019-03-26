@@ -138,7 +138,9 @@
     <orderEntry type="library" name="Maven: dom4j:dom4j:1.6.1" level="project" />
     <orderEntry type="library" name="Maven: org.hibernate.common:hibernate-commons-annotations:5.0.1.Final" level="project" />
     <orderEntry type="library" name="Maven: javax.validation:validation-api:1.1.0.Final" level="project" />
-    <orderEntry type="module" module-name="schedule-model" />
+    <orderEntry type="library" name="Maven: com.edison.services.orgcenter:orgcenter-client:1.0.0-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: com.edison.services.orgcenter:orgcenter-model:1.0.0-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: com.edison.schedule:schedule-model:1.0.0-SNAPSHOT" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.projectlombok:lombok:1.18.2" level="project" />
   </component>
 </module>

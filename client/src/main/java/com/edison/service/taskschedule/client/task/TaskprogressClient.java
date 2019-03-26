@@ -3,10 +3,10 @@ package com.edison.service.taskschedule.client.task;
 import com.edison.saas.common.framework.web.controller.PageContent;
 import com.edison.saas.common.framework.web.controller.RestResponse;
 import com.edison.saas.common.framework.web.data.PageSearchRequest;
-import com.edison.service.taskschedule.business.task.dto.TaskprogressAddDto;
-import com.edison.service.taskschedule.business.task.dto.TaskprogressCondition;
-import com.edison.service.taskschedule.business.task.dto.TaskprogressEditDto;
-import com.edison.service.taskschedule.business.task.vo.TaskprogressVO;
+import com.edison.service.taskschedule.business.dto.TaskprogressAddDto;
+import com.edison.service.taskschedule.business.dto.TaskprogressCondition;
+import com.edison.service.taskschedule.business.dto.TaskprogressEditDto;
+import com.edison.service.taskschedule.business.vo.TaskprogressVO;
 import org.springframework.cloud.netflix.feign.FeignClient;
 import org.springframework.web.bind.annotation.*;
 

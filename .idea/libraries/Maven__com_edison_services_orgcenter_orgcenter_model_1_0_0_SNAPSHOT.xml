@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.edison.services.orgcenter:orgcenter-model:1.0.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/edison/services/orgcenter/orgcenter-model/1.0.0-SNAPSHOT/orgcenter-model-1.0.0-20190322.104028-5.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/edison/services/orgcenter/orgcenter-model/1.0.0-SNAPSHOT/orgcenter-model-1.0.0-20190322.104028-5-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/edison/services/orgcenter/orgcenter-model/1.0.0-SNAPSHOT/orgcenter-model-1.0.0-20190322.104028-5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

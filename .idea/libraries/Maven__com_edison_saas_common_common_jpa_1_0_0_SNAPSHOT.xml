@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.edison.saas.common:common-jpa:1.0.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/edison/saas/common/common-jpa/1.0.0-SNAPSHOT/common-jpa-1.0.0-20190320.111741-2.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/edison/saas/common/common-jpa/1.0.0-SNAPSHOT/common-jpa-1.0.0-20190320.111741-2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/edison/saas/common/common-jpa/1.0.0-SNAPSHOT/common-jpa-1.0.0-20190320.111741-2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

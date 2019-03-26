@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../saas/discovery/platform-discovery.iml" filepath="$PROJECT_DIR$/../saas/discovery/platform-discovery.iml" />
+      <module fileurl="file://$PROJECT_DIR$/business/taskschedule-business.iml" filepath="$PROJECT_DIR$/business/taskschedule-business.iml" />
+      <module fileurl="file://$PROJECT_DIR$/client/taskschedule-client.iml" filepath="$PROJECT_DIR$/client/taskschedule-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/model/taskschedule-model.iml" filepath="$PROJECT_DIR$/model/taskschedule-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/taskschedule-parent.iml" filepath="$PROJECT_DIR$/taskschedule-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web/taskschedule-web.iml" filepath="$PROJECT_DIR$/web/taskschedule-web.iml" />
+    </modules>
+  </component>
+</project>

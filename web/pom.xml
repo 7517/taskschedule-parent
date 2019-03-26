@@ -27,6 +27,12 @@
             <artifactId>taskschedule-business</artifactId>
             <version>${project.version}</version>
         </dependency>
+        <dependency>
+            <groupId>com.edison.services.orgcenter</groupId>
+            <artifactId>orgcenter-client</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
+        </dependency>
+
     </dependencies>
 
 
